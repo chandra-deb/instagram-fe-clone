@@ -1,0 +1,89 @@
+// Initial Setup
+$colors: (
+    white: #FFFFFF,
+    black: #0000,
+    accent: #fafafa,
+    dark: #545454,
+    light: #8E8E8E,
+    link: #0095F6,
+);
+
+$side-padding: 12px;
+$border: 1px solid #DBDBDB;
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+  }
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: color(accent);
+}
+
+header {
+    background-color: color(white);
+    border-bottom: $border;
+    margin: auto;
+}
+
+nav {
+    max-width: 970px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding: $side-padding;
+    a {
+        padding-left: $side-padding - 5px;
+        color: black;
+        font-size: 30px;
+        font-weight: 600;
+        text-decoration: none;
+        font-family: 'SilkW01-ScriptAlternates';
+    }
+    .item {
+        flex: 1;
+    }
+    input {
+        width: 200px;
+        height: 28px;
+        border: $border;
+        border-radius: 3px;
+        background-color: color(accent);
+    }
+    ul {
+        padding-right: 10px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        li {
+
+            padding-left: $side-padding;
+            a {
+                display: inline-block;
+                color: black;
+                i {
+                    font-size: 23px;
+                    font-weight: 1000;
+                }
+            }
+            img {
+                margin-left: 12px;
+                width: 22px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 570px) {
+    input {
+        display: none;
+    }
+}
