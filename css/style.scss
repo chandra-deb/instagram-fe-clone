@@ -28,7 +28,7 @@ body{
 header {
     background-color: color(white);
     border-bottom: $border;
-    margin: auto;
+    display: fixed;
 }
 
 nav {
@@ -44,7 +44,7 @@ nav {
         font-size: 30px;
         font-weight: 600;
         text-decoration: none;
-        font-family: 'SilkW01-ScriptAlternates';
+        font-family: 'SilkW01-ScriptAlternates', serif;
     }
     .item {
         flex: 1;

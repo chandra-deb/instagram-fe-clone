@@ -10,7 +10,7 @@ body {
 header {
   background-color: #FFFFFF;
   border-bottom: 1px solid #DBDBDB;
-  margin: auto;
+  display: fixed;
 }
 
 nav {
@@ -32,7 +32,7 @@ nav a {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  font-family: 'SilkW01-ScriptAlternates';
+  font-family: 'SilkW01-ScriptAlternates', serif;
 }
 
 nav .item {
