@@ -233,7 +233,61 @@ nav {
 // Follow suggestions ends here
 
 
+// Covid notify starts here!
 
+.covid-notify-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-top: 25px;
+}
+.covid-notify {
+    // margin-top: 25px;
+    // // max-width: 615px;
+    // text-align: center;
+    // padding: 20px 40px;
+    // background: white;
+    // border: 1px solid #e7e5e5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: color(white);
+    border: $border;
+    border-radius: $border_radius;
+    width: 615px;
+    margin-left: 0;
+    // display: flex;
+    // align-items: center;
+    text-align: center;
+    // overflow: hidden;
+
+    img {
+        background: white;
+        margin-bottom: 15px;
+    }
+
+    h4 {
+        background: white;
+        padding-bottom: 8px;
+    }
+    p {
+        background: white;
+        line-height: 1.2;
+        color: grey;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+        margin-top: 10px;
+        background: #0095f6;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 6px 125px 10px;
+    }
+}
+
+// Covid notify ends here!
 
 
 @media (max-width: 570px) {
@@ -244,6 +298,10 @@ nav {
 
 @media (max-width: 965px) {
     .stories-container {
+        display: flex;
+        justify-content: center;
+    }
+    .covid-notify-container{
         display: flex;
         justify-content: center;
     }
