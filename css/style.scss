@@ -10,6 +10,8 @@ $colors: (
 
 $side-padding: 12px;
 $border: 1px solid #DBDBDB;
+$border_radius: 2px;
+$max-width: 970px;
 
 @function color($color-name) {
     @return map-get($colors, $color-name);
@@ -23,16 +25,21 @@ $border: 1px solid #DBDBDB;
 
 body{
     background-color: color(accent);
+    font-family: serif;
 }
 
+
+// Nav bar Starts here
 header {
     background-color: color(white);
     border-bottom: $border;
-    display: fixed;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 nav {
-    max-width: 970px;
+    max-width: $max-width;
     margin: auto;
     display: flex;
     align-items: center;
@@ -81,9 +88,166 @@ nav {
         }
     }
 }
+// Nav bar ends here
+
+.top-container {
+    max-width: $max-width;
+    margin: auto;
+    padding-top: 85px;
+}
+
+// Stories Starts here
+.stories-container {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+}
+.stories {
+    background-color: color(white);
+    border: $border;
+    border-radius: $border_radius;
+    width: 615px;
+    height: 115px;  
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    .story {
+        margin-left: 16px;
+        display: inline-block;
+        text-align: center;
+        .image {
+            border: 1.5px solid red;
+            border-radius: 50%;
+            img {
+                margin: 2px;
+                vertical-align: middle;
+                width: 60px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+// Stories Ends here
+
+
+
+
+
+// Follow suggestions Starts here
+.follow-pro-container {
+    display: inline-block;
+    margin-left: 35px;
+    z-index: 1;
+}
+.follow-sugg-pro {
+    width: 295px;
+    display: inline-block;
+    position: fixed;
+    .profile {
+        margin-left: 25px;
+        margin-bottom: 25px;
+        img {
+            width: 60px;
+            border-radius: 50%;
+        }
+        #pro-details {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 5px;
+            margin-left: 10px;
+            
+            p {
+                margin: 0;
+                line-height: 1.3;
+                color: color(dark)
+            }
+            #pro-name {
+                color: color(light)
+            }
+        }
+    }
+    .s-f-y {
+        margin-left: 25px;
+        margin-bottom: 15px;
+    
+        h4 {
+            display: inline-block;
+            font-weight: 600;
+            color: color(light)
+        }
+    
+        a {
+            color: color(dark);
+            display: inline-block;
+            float: right;
+            text-decoration: none;
+            font-size: 13px;
+        }
+    }
+    .name {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    
+        .name-t-flo {
+            margin-left: 25px;
+            .fo-pro-img {
+                display: inline-block;
+                img {
+                    width: 30px;
+                    border-radius: 50%;
+                    margin-right: 8px;
+                }
+            }
+            .fo-content {
+                display: inline-block;
+
+                h4 {
+                    color: color(dark);
+                    margin-bottom: 5px;
+                }
+                p {
+                    color: color(light);
+                    font-size: 13px;
+                    letter-spacing: .8px;
+                    margin-bottom: 10px;
+    
+                }
+            }
+        }
+    
+        .url {
+            align-self: center;
+            a {
+                text-decoration: none;
+                color: color(link);
+                display: inline-block;
+                margin-bottom: 10px;
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+// Follow suggestions ends here
+
+
+
+
 
 @media (max-width: 570px) {
     input {
+        display: none;
+    }
+}
+
+@media (max-width: 965px) {
+    .stories-container {
+        display: flex;
+        justify-content: center;
+    }
+    .follow-pro-container {
         display: none;
     }
 }
