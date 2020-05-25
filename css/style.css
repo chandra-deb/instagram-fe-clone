@@ -288,6 +288,72 @@ nav ul li img {
   padding: 6px 125px 10px;
 }
 
+.post-card {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+.post-card .card {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 2px;
+  max-width: 615px;
+}
+
+.post-card .card .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 14px;
+}
+
+.post-card .card .top .left {
+  margin-left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.post-card .card .top .left img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.post-card .card .top .left a {
+  color: #545454;
+  text-decoration: none;
+  vertical-align: super;
+}
+
+.post-card .card .top .right {
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.post-card .card .top .right a {
+  color: #545454;
+  text-decoration: none;
+  font-size: 2em;
+  margin-top: -10px;
+}
+
+.post-card .card .image img {
+  width: 100%;
+}
+
 @media (max-width: 570px) {
   input {
     display: none;

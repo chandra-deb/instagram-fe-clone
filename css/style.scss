@@ -289,6 +289,62 @@ nav {
 
 // Covid notify ends here!
 
+// Post card starts here
+.post-card {
+    display: inline-block;
+    margin-top: 25px;
+    // border: 1px solid red;
+    
+    .card {
+        padding-top: 14px;
+        padding-bottom: 14px;
+        background-color: color(white);
+        border: $border;
+        border-radius: $border_radius;
+        max-width: 615px;
+
+        .top {
+            display: flex;  
+            justify-content: space-between;
+            padding-bottom: 14px;
+            
+            .left {
+                margin-left: 15px;
+                display: flex;
+                align-items: center;
+                img {
+                    width: 30px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                }
+                a {
+                    color: color(dark);
+                    text-decoration: none;
+                    vertical-align: super;
+                }
+            }
+            .right {
+                margin-right: 15px;
+                display: flex;
+                align-content: center;
+                a {
+                    color: color(dark);
+                    text-decoration: none;
+                    font-size: 2em;
+                    margin-top: -10px;
+                }
+            }
+        }
+        .image {
+            img {
+                width: 100%;
+            }
+        }
+
+    }
+}
+// Post card ends here
+
 
 @media (max-width: 570px) {
     input {
