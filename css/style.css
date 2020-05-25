@@ -5,7 +5,7 @@
 
 body {
   background-color: #fafafa;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 header {
@@ -354,6 +354,68 @@ nav ul li img {
   width: 100%;
 }
 
+.post-card .card .react-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post-card .card .react-icons .left a:first-child {
+  margin-left: 0;
+}
+
+.post-card .card .react-icons .left a {
+  margin-left: 15px;
+  font-size: 26px;
+  color: black;
+}
+
+.post-card .card .react-icons .right {
+  margin-right: 15px;
+  font-size: 26px;
+}
+
+.post-card .card .react-icons .right a {
+  color: black;
+}
+
+.post-card .card .liked-by {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.post-card .card .liked-by img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.post-card .card .liked-by p {
+  color: #545454;
+  vertical-align: super;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.post-card .card .liked-by p a {
+  text-decoration: none;
+  color: #545454;
+  font-weight: 600;
+}
+
+.post-card .card .liked-by #time {
+  margin-top: 8px;
+  display: block;
+  font-size: 11px;
+  color: #545454;
+}
+
 @media (max-width: 570px) {
   input {
     display: none;
@@ -379,6 +441,14 @@ nav ul li img {
   }
   .follow-pro-container {
     display: none;
+  }
+  .post-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=style.css.map */
