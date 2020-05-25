@@ -411,9 +411,35 @@ nav ul li img {
 
 .post-card .card .liked-by #time {
   margin-top: 8px;
+  margin-bottom: 8px;
   display: block;
   font-size: 11px;
   color: #545454;
+}
+
+.post-card .card .comment-input {
+  border-top: 1px solid #DBDBDB;
+  padding-top: 20px;
+  padding-bottom: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-card .card .comment-input input {
+  font-size: 14px;
+  margin-left: 15px;
+  border: none;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 5px;
+}
+
+.post-card .card .comment-input a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #0095F6;
 }
 
 @media (max-width: 570px) {
