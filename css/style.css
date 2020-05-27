@@ -798,6 +798,9 @@ footer .right-f {
   margin-right: 15px;
   font-size: 12px;
   color: #8E8E8E;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 @media (max-width: 570px) {
