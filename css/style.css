@@ -57,6 +57,10 @@ nav input {
   background-color: #fafafa;
 }
 
+nav input:focus {
+  outline: none;
+}
+
 nav ul {
   padding-right: 10px;
   list-style-type: none;
@@ -376,7 +380,7 @@ nav ul li img {
 .post-card .card .react-icons .left a {
   margin-left: 15px;
   font-size: 26px;
-  color: black;
+  color: #545454;
 }
 
 .post-card .card .react-icons .right {
@@ -385,7 +389,7 @@ nav ul li img {
 }
 
 .post-card .card .react-icons .right a {
-  color: black;
+  color: #545454;
 }
 
 .post-card .card .liked-by {
@@ -438,6 +442,10 @@ nav ul li img {
       -ms-flex: 1;
           flex: 1;
   margin-right: 5px;
+}
+
+.post-card .card .comment-input input:focus {
+  outline: none;
 }
 
 .post-card .card .comment-input a {

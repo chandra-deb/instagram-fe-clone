@@ -66,6 +66,10 @@ nav {
         border: $border;
         border-radius: 3px;
         background-color: color(accent);
+
+        &:focus {
+            outline: none;
+        }
     }
     ul {
         padding-right: 10px;
@@ -355,14 +359,14 @@ nav {
                 a {
                     margin-left: 15px;
                     font-size: 26px;
-                    color: black;
+                    color: color(dark);
                 }
             }
             .right {
                 margin-right: 15px;
                 font-size: 26px;
                 a {
-                    color: black;
+                    color: color(dark);
                 }
             }
         }
@@ -408,7 +412,11 @@ nav {
                 border: none;
                 flex: 1;
                 margin-right: 5px;
+                &:focus {
+                    outline: none;
+                }
             }
+    
             a {
                 margin-right: 15px;
                 text-decoration: none;
