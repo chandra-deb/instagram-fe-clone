@@ -425,20 +425,174 @@ nav {
 
 
 // profile page starts here
+
+
+.about-profile {
+    margin: auto;
+    max-width: $max-width - 200px;
+    display: flex;
+    .profile-img {
+        margin-right: 10%;
+        margin-left: 10%;
+        img {
+            border-radius: 50%;
+        }
+    }
+    .about-others {
+        .top {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            h6 {
+                order: 1;
+                margin-right: 20px;
+                font-size: 26px;
+                color: color(dark)
+            }
+            .middle-links {
+                order: 2;
+
+                a {
+                    margin-right: 4px;
+                    border: $border;
+                    border-radius: 3px;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 6px 8px;
+                    font-size: 14px;
+                    color: color(dark);
+                    font-weight: 600;
+                }
+            }
+
+            .dotted-menu {
+                order: 3;
+                margin-bottom: 18px;
+                #dots {
+                    text-decoration: none;
+                    border: none;
+                    font-size: 36px;
+                    margin-left: 5px;    
+                }
+            }
+        }
+        .middle {
+            margin-top: 10px;
+            display: flex;
+
+            p {
+                margin-right: 24px;
+                margin-bottom: 24px;
+                color: color(dark);
+
+                a {
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgba(0, 0, 0, 0.6);
+                    margin-right: 6px;
+                }
+            }
+
+            p:last-child {
+             margin-right: 0;   
+            }
+        }
+        .bottom {
+            h4 {
+                color: color(dark);
+                margin-bottom: 8px;
+            }
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: #36618a;
+                margin-bottom: 6px;
+            }
+            p {
+                line-height: 1.5;
+                color: color(dark)
+            }
+
+            a:last-child {
+                margin-top: 4px;
+            }
+        }
+    }
+}
+
+
 .pro-gallery-img-container {
+    border-top: $border;
     max-width: $max-width;
     margin: auto;
+    margin-top: 45px;
+    // padding-top: 45px;
+    .p-t {
+        justify-content: center;
+        display: flex;
+        margin-top: 23px;
+        margin-bottom: 23px;
+        a {
+            text-decoration: none;
+            color: color(dark);
+            font-size: 15px;
+            font-weight: 600;
+            i {
+                margin-right: 5px;
+            }
+        }
+        a:first-child {
+            margin-right: 8%;
+        }
+        a:last-child {
+            color: color(light)
+        }
+    }
     .pro-gallery-img {
         display: grid;
-        grid-gap: 30px;
+        grid-gap: 25px;
         justify-content: center;
         grid-template-columns: repeat(3, 1fr);
-        .i1 {
+        .img-wrapper {
+            background-color: rgb(46, 43, 43);
+        }
+        .img {
             width: 100%;
             height: 30vmin;
-            background-image: url('https://loremflickr.com/320/320/boy,girl/all');
+            background: url('https://loremflickr.com/320/320/boy,girl/all');
             background-size: cover;
             background-position: center;
+            position: relative;
+            .left {
+                display: none;
+                position: absolute;
+                top: 48%;
+                left: 28%;
+                color: white;
+                i {
+                    color: white;
+                    font-size: 24px;
+                }
+            }
+            .right {
+                display: none;
+                position: absolute;
+                top: 48%;
+                right: 28%;
+                color: white;
+                i {
+                    color: white;
+                    font-size: 24px;
+                }
+            }
+            &:hover {
+                opacity: .7;
+                .left, .right {
+                    display: initial;
+                }
+            }
         }
         .i2 {
             width: 100%;
@@ -566,9 +720,95 @@ nav {
     }
 }
 
+
+
 @media (max-width: 735px) {
     .pro-gallery-img {
-        grid-gap: 2px !important;
+        grid-gap: 3px !important;
+        .img-wrapper {
+            .img {
+                .left {
+                    left: 4%;
+                }
+                .right {
+                    right: 4%;
+                }
+            }
+        }
+    }
+
+    .profile-img {
+        margin-left: 15px !important;
+        margin-right: 25px !important;
+        img {
+            width: 80px
+        }
+    }
+
+    .top {
+        .middle-links {
+            width: 100%;
+            order: 4 !important;
+        }
+
+    }
+
+    .middle, .bottom {
+        position: relative;
+        left: -100px;
+        margin-top: 20px;
+    }
+
+    .middle {
+        margin-top: 28px !important;
+        p {
+            margin-bottom: 15px !important;
+        }
+    }
+
+    .bottom {
+        margin-top: 5px;
+    }
+
+
+}
+
+@media (max-width: 885px) {
+    .img-wrapper {
+        .img {
+            .left {
+                left: 22% !important;
+            }
+            .right {
+                right: 22% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 650px){
+    .img-wrapper {
+        .img {
+            .left {
+                left: 12% !important;
+            }
+            .right {
+                right: 12% !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px){
+    .img-wrapper {
+        .img {
+            .left {
+                left: 8% !important;
+            }
+            .right {
+                right: 8% !important;
+            }
+        }
     }
 }
 
