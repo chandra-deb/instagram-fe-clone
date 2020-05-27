@@ -803,6 +803,192 @@ footer .right-f {
       align-self: center;
 }
 
+.disc-gallery-img-container {
+  border-top: 1px solid #DBDBDB;
+  max-width: 970px;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 25px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper {
+  background-color: #2e2b2b;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left {
+  display: none;
+  position: absolute;
+  top: 48%;
+  left: 28%;
+  color: white;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left i {
+  color: white;
+  font-size: 24px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right {
+  display: none;
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  color: white;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right i {
+  color: white;
+  font-size: 24px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover {
+  opacity: .7;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .left, .disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .right {
+  display: initial;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .item2 {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i1 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/321/321/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://instagram.fdac22-1.fna.fbcdn.net/v/t51.2885-15/e35/99143192_955596524876179_244529888348306404_n.jpg?_nc_ht=instagram.fdac22-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=GkBUeN_F5GsAX9Hzncq&oh=f6fdadac4f9ad848e984470d67e4fecb&oe=5EF5BBAA");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i3 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/321/321/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i4 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/322/322/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i5 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/333/333/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i6 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/334/334/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i7 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/335/335/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i8 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/336/336/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i9 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/337/337/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i10 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/338/338/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i11 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/339/339/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i12 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/340/340/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i13 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/341/341/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i14 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/steve.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .i15 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/343/343/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
 @media (max-width: 570px) {
   #search-input {
     display: none;
