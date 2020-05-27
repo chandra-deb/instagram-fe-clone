@@ -70,6 +70,9 @@ nav {
         &:focus {
             outline: none;
         }
+        &::placeholder {
+            text-align: center;
+        }
     }
     ul {
         padding-right: 10px;
@@ -821,7 +824,7 @@ footer {
     
     .disc-gallery-img {
 
-        .layout-type-1 {
+        .layout-type-1, .layout-type-2 {
             margin-top: 15px;
             display: grid;
             grid-gap: 25px;
@@ -1007,9 +1010,13 @@ footer {
             }
 
         }
-        
+
         .layout-type-2 {
-            margin-top: 50px;
+            margin-top: 25px;
+        }
+        
+        .layout-type-3, .layout-type-4 {
+            margin-top: 25px;
             display: grid;
             grid-gap: 25px;
             grid-template-columns: repeat(3, 1fr);
@@ -1143,21 +1150,11 @@ footer {
     }
 
 
-
-    // .big-img {
-    //     .left {
-    //         left: 38% !important;
-    //     }
-    //     .right {
-    //         right: 38% !important;
-    //     }
-    // }
-
-    .layout-type-1 {
+    .layout-type-1, .layout-type-2 {
         grid-gap: 2px !important;
     }
 
-    .layout-type-2 {
+    .layout-type-3, .layout-type-4 {
         grid-gap: 2px !important;
     }
 
