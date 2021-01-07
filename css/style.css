@@ -8,10 +8,15 @@ body {
   font-family: sans-serif;
 }
 
+.header-wrapper {
+  margin-bottom: 85px;
+}
+
 header {
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 2;
 }
@@ -35,7 +40,7 @@ nav a {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  font-family: 'SilkW01-ScriptAlternates', serif;
+  font-family: "SilkW01-ScriptAlternates", serif;
 }
 
 nav .item {
@@ -47,9 +52,29 @@ nav .item {
 nav input {
   width: 200px;
   height: 28px;
-  border: 1px solid #DBDBDB;
+  border: 1px solid #dbdbdb;
   border-radius: 3px;
   background-color: #fafafa;
+}
+
+nav input:focus {
+  outline: none;
+}
+
+nav input::-webkit-input-placeholder {
+  text-align: center;
+}
+
+nav input:-ms-input-placeholder {
+  text-align: center;
+}
+
+nav input::-ms-input-placeholder {
+  text-align: center;
+}
+
+nav input::placeholder {
+  text-align: center;
 }
 
 nav ul {
@@ -89,7 +114,6 @@ nav ul li img {
 .top-container {
   max-width: 970px;
   margin: auto;
-  padding-top: 85px;
 }
 
 .stories-container {
@@ -99,8 +123,8 @@ nav ul li img {
 }
 
 .stories {
-  background-color: #FFFFFF;
-  border: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
   border-radius: 2px;
   width: 615px;
   height: 115px;
@@ -168,7 +192,7 @@ nav ul li img {
 }
 
 .follow-sugg-pro .profile #pro-details #pro-name {
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
 .follow-sugg-pro .s-f-y {
@@ -179,7 +203,7 @@ nav ul li img {
 .follow-sugg-pro .s-f-y h4 {
   display: inline-block;
   font-weight: 600;
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
 .follow-sugg-pro .s-f-y a {
@@ -221,9 +245,9 @@ nav ul li img {
 }
 
 .follow-sugg-pro .name .name-t-flo .fo-content p {
-  color: #8E8E8E;
+  color: #8e8e8e;
   font-size: 13px;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   margin-bottom: 10px;
 }
 
@@ -235,7 +259,7 @@ nav ul li img {
 
 .follow-sugg-pro .name .url a {
   text-decoration: none;
-  color: #0095F6;
+  color: #0095f6;
   display: inline-block;
   margin-bottom: 10px;
   font-size: 13px;
@@ -252,8 +276,8 @@ nav ul li img {
 .covid-notify {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #FFFFFF;
-  border: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
   border-radius: 2px;
   width: 615px;
   margin-left: 0;
@@ -296,8 +320,8 @@ nav ul li img {
 .post-card .card {
   padding-top: 14px;
   padding-bottom: 14px;
-  background-color: #FFFFFF;
-  border: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
   border-radius: 2px;
   max-width: 615px;
 }
@@ -372,7 +396,7 @@ nav ul li img {
 .post-card .card .react-icons .left a {
   margin-left: 15px;
   font-size: 26px;
-  color: black;
+  color: #545454;
 }
 
 .post-card .card .react-icons .right {
@@ -381,7 +405,7 @@ nav ul li img {
 }
 
 .post-card .card .react-icons .right a {
-  color: black;
+  color: #545454;
 }
 
 .post-card .card .liked-by {
@@ -418,7 +442,7 @@ nav ul li img {
 }
 
 .post-card .card .comment-input {
-  border-top: 1px solid #DBDBDB;
+  border-top: 1px solid #dbdbdb;
   padding-top: 20px;
   padding-bottom: 6px;
   display: -webkit-box;
@@ -436,15 +460,953 @@ nav ul li img {
   margin-right: 5px;
 }
 
+.post-card .card .comment-input input:focus {
+  outline: none;
+}
+
 .post-card .card .comment-input a {
   margin-right: 15px;
   text-decoration: none;
-  color: #0095F6;
+  color: #0095f6;
+}
+
+.about-profile {
+  margin: auto;
+  max-width: 770px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-profile .profile-img {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.about-profile .profile-img img {
+  border-radius: 50%;
+}
+
+.about-profile .about-others .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-profile .about-others .top h6 {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-right: 20px;
+  font-size: 26px;
+  color: #545454;
+}
+
+.about-profile .about-others .top .middle-links {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.about-profile .about-others .top .middle-links a {
+  margin-right: 4px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 6px 8px;
+  font-size: 14px;
+  color: #545454;
+  font-weight: 600;
+}
+
+.about-profile .about-others .top .dotted-menu {
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  margin-bottom: 18px;
+}
+
+.about-profile .about-others .top .dotted-menu #dots {
+  color: #545454;
+  text-decoration: none;
+  border: none;
+  font-size: 36px;
+  margin-left: 5px;
+}
+
+.about-profile .about-others .middle {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-profile .about-others .middle p {
+  margin-right: 24px;
+  margin-bottom: 24px;
+  color: #545454;
+}
+
+.about-profile .about-others .middle p a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 6px;
+}
+
+.about-profile .about-others .middle p:last-child {
+  margin-right: 0;
+}
+
+.about-profile .about-others .bottom h4 {
+  color: #545454;
+  margin-bottom: 8px;
+}
+
+.about-profile .about-others .bottom a {
+  display: inline-block;
+  text-decoration: none;
+  color: #36618a;
+  margin-bottom: 6px;
+}
+
+.about-profile .about-others .bottom p {
+  line-height: 1.5;
+  color: #545454;
+}
+
+.about-profile .about-others .bottom a:last-child {
+  margin-top: 4px;
+}
+
+.pro-gallery-img-container {
+  border-top: 1px solid #dbdbdb;
+  max-width: 970px;
+  margin: auto;
+  margin-top: 45px;
+}
+
+.pro-gallery-img-container .p-t {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.pro-gallery-img-container .p-t a {
+  text-decoration: none;
+  color: #545454;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.pro-gallery-img-container .p-t a i {
+  margin-right: 5px;
+}
+
+.pro-gallery-img-container .p-t a:first-child {
+  margin-right: 8%;
+}
+
+.pro-gallery-img-container .p-t a:last-child {
+  color: #8e8e8e;
+}
+
+.pro-gallery-img-container .pro-gallery-img {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.pro-gallery-img-container .pro-gallery-img .img-wrapper {
+  background-color: #2e2b2b;
+}
+
+.pro-gallery-img-container .pro-gallery-img .img {
+  width: 100%;
+  height: 30vmin;
+  background: url("https://loremflickr.com/320/320/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.pro-gallery-img-container .pro-gallery-img .img .left {
+  display: none;
+  position: absolute;
+  top: 48%;
+  left: 28%;
+  color: white;
+}
+
+.pro-gallery-img-container .pro-gallery-img .img .left i {
+  color: white;
+  font-size: 24px;
+}
+
+.pro-gallery-img-container .pro-gallery-img .img .right {
+  display: none;
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  color: white;
+}
+
+.pro-gallery-img-container .pro-gallery-img .img .right i {
+  color: white;
+  font-size: 24px;
+}
+
+.pro-gallery-img-container .pro-gallery-img .img:hover {
+  opacity: 0.7;
+}
+
+.pro-gallery-img-container .pro-gallery-img .img:hover .left,
+.pro-gallery-img-container .pro-gallery-img .img:hover .right {
+  display: initial;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i2 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/322/322/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i3 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/321/321/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i4 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/322/322/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i5 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/333/333/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i6 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/334/334/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i7 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/335/335/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i8 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/336/336/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i9 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/337/337/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i10 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/338/338/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i11 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/339/339/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i12 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/340/340/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i13 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/341/341/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i14 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/342/342/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.pro-gallery-img-container .pro-gallery-img .i15 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/343/343/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  max-width: 970px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .left-f {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 15px;
+}
+
+footer .left-f a {
+  text-decoration: none;
+  color: #36618a;
+  font-size: 12px;
+  margin-right: 0.4%;
+}
+
+footer .right-f {
+  margin-right: 15px;
+  font-size: 12px;
+  color: #8e8e8e;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.discover-people-container {
+  max-width: 970px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.discover-people-container #disc-people {
+  margin-left: 15px;
+  font-size: 14px;
+  color: #8e8e8e;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+.discover-people-container .discover-people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.discover-people-container .discover-people .card {
+  background-color: white;
+  text-align: center;
+  margin-left: 25px;
+  border: 1px solid #dbdbdb;
+  padding: 25px 52px;
+  border-radius: 3px;
+}
+
+.discover-people-container .discover-people .card img {
+  width: 55px;
+  border-radius: 50%;
+  margin-bottom: 14px;
+}
+
+.discover-people-container .discover-people .card .deatils {
+  margin-bottom: 14px;
+}
+
+.discover-people-container .discover-people .card .deatils a {
+  text-decoration: none;
+  color: #545454;
+}
+
+.discover-people-container .discover-people .card .deatils p {
+  color: #8e8e8e;
+  font-size: 14px;
+}
+
+.discover-people-container .discover-people .card .follow-link a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 8px;
+  background-color: #0095f6;
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+}
+
+.disc-gallery-img-container {
+  max-width: 970px;
+  margin: auto;
+}
+
+.disc-gallery-img-container p {
+  margin-left: 15px;
+  font-size: 14px;
+  color: #8e8e8e;
+  font-weight: 600;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 {
+  margin-top: 15px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 25px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper {
+  background-color: #2e2b2b;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .left {
+  display: none;
+  position: absolute;
+  top: 48%;
+  left: 28%;
+  color: white;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .left i {
+  color: white;
+  font-size: 24px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .right {
+  display: none;
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  color: white;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .right i {
+  color: white;
+  font-size: 24px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover {
+  opacity: 0.7;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover .right {
+  display: initial;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .big-img .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .big-img .left {
+  left: 38%;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .big-img .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .big-img .right {
+  right: 38%;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i1 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/321/321/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i2,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/mujib.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i3,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i3 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("../img/marktoen.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i4,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i4 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/322/322/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i5,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i5 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/333/333/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i6,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i6 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/334/334/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i7,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i7 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/335/335/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i8,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i8 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/336/336/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i9,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i9 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/337/337/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i10,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i10 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/338/338/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i11,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i11 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/339/339/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i12,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i12 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/340/340/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i13,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i13 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/341/341/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i14,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i14 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/steve.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i15,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i15 {
+  width: 100%;
+  height: 30vmin;
+  background-image: url("https://loremflickr.com/343/343/boy,girl/all");
+  background-size: cover;
+  background-position: center;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .item2,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .item2 {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 {
+  margin-top: 25px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 {
+  margin-top: 25px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 25px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper {
+  background-color: #2e2b2b;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img {
+  width: 100%;
+  height: 30vmin;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .left {
+  display: none;
+  position: absolute;
+  top: 48%;
+  left: 28%;
+  color: white;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .left i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .left i {
+  color: white;
+  font-size: 24px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .right {
+  display: none;
+  position: absolute;
+  top: 48%;
+  right: 28%;
+  color: white;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .right i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .right i {
+  color: white;
+  font-size: 24px;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover {
+  opacity: 0.7;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover .right {
+  display: initial;
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i1 {
+  height: 100%;
+  background-image: url("https://loremflickr.com/321/321/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i2,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i2 {
+  background-image: url("../img/billgates.jpg");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i3,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i3 {
+  background-image: url("https://loremflickr.com/321/321/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i4,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i4 {
+  background-image: url("https://loremflickr.com/322/322/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i5,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i5 {
+  background-image: url("https://loremflickr.com/333/333/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i6,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i6 {
+  background-image: url("https://loremflickr.com/334/334/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i7,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i7 {
+  background-image: url("https://loremflickr.com/335/335/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i8,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i8 {
+  background-image: url("https://loremflickr.com/336/336/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i9,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i9 {
+  background-image: url("https://loremflickr.com/337/337/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i10,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i10 {
+  background-image: url("https://loremflickr.com/338/338/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i11,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i11 {
+  background-image: url("https://loremflickr.com/339/339/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i12,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i12 {
+  height: 100%;
+  background-image: url("https://loremflickr.com/340/340/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i13,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i13 {
+  background-image: url("https://loremflickr.com/341/341/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i14,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i14 {
+  background-image: url("../img/steve.jpg");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i15,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i15 {
+  background-image: url("https://loremflickr.com/343/343/boy,girl/all");
+}
+
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .item1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .item1 {
+  grid-row: span 2;
 }
 
 @media (max-width: 570px) {
   #search-input {
     display: none;
+  }
+}
+
+@media (max-width: 735px) {
+  .pro-gallery-img {
+    grid-gap: 3px !important;
+  }
+  .pro-gallery-img .img-wrapper .img .left {
+    left: 4%;
+  }
+  .pro-gallery-img .img-wrapper .img .right {
+    right: 4%;
+  }
+  .layout-type-1,
+  .layout-type-2 {
+    grid-gap: 2px !important;
+  }
+  .layout-type-3,
+  .layout-type-4 {
+    grid-gap: 2px !important;
+  }
+  .profile-img {
+    margin-left: 15px !important;
+    margin-right: 25px !important;
+  }
+  .profile-img img {
+    width: 80px;
+  }
+  .top .middle-links {
+    width: 100%;
+    -webkit-box-ordinal-group: 5 !important;
+        -ms-flex-order: 4 !important;
+            order: 4 !important;
+  }
+  .middle,
+  .bottom {
+    position: relative;
+    left: -100px;
+    margin-top: 20px;
+  }
+  .middle {
+    margin-top: 28px !important;
+  }
+  .middle p {
+    margin-bottom: 15px !important;
+  }
+  .bottom {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 860px) {
+  .discover-people-container {
+    display: none !important;
+  }
+}
+
+@media (max-width: 885px) {
+  .img-wrapper .img .left {
+    left: 22% !important;
+  }
+  .img-wrapper .img .right {
+    right: 22% !important;
+  }
+  .img-wrapper .big-img .left {
+    left: 34% !important;
+  }
+  .img-wrapper .big-img .right {
+    right: 34% !important;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    text-align: center;
+  }
+  footer .right-f {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .img-wrapper .img .left {
+    left: 12% !important;
+  }
+  .img-wrapper .img .right {
+    right: 12% !important;
+  }
+  .img-wrapper .big-img .left {
+    left: 30% !important;
+  }
+  .img-wrapper .big-img .right {
+    right: 30% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .img-wrapper .img .left {
+    left: 8% !important;
+  }
+  .img-wrapper .img .right {
+    right: 8% !important;
+  }
+  .img-wrapper .big-img .left {
+    left: 25% !important;
+  }
+  .img-wrapper .big-img .right {
+    right: 25% !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .img-wrapper .img .left {
+    left: 1% !important;
+  }
+  .img-wrapper .img .right {
+    right: 1% !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .img-wrapper .img .left {
+    left: 1% !important;
+  }
+  .img-wrapper .img .right {
+    right: 1% !important;
+  }
+  .img-wrapper .big-img .left {
+    left: 22% !important;
+  }
+  .img-wrapper .big-img .right {
+    right: 22% !important;
   }
 }
 
