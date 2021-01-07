@@ -13,8 +13,8 @@ body {
 }
 
 header {
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
   position: fixed;
   top: 0;
   width: 100%;
@@ -40,7 +40,7 @@ nav a {
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  font-family: 'SilkW01-ScriptAlternates', serif;
+  font-family: "SilkW01-ScriptAlternates", serif;
 }
 
 nav .item {
@@ -52,7 +52,7 @@ nav .item {
 nav input {
   width: 200px;
   height: 28px;
-  border: 1px solid #DBDBDB;
+  border: 1px solid #dbdbdb;
   border-radius: 3px;
   background-color: #fafafa;
 }
@@ -123,8 +123,8 @@ nav ul li img {
 }
 
 .stories {
-  background-color: #FFFFFF;
-  border: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
   border-radius: 2px;
   width: 615px;
   height: 115px;
@@ -192,7 +192,7 @@ nav ul li img {
 }
 
 .follow-sugg-pro .profile #pro-details #pro-name {
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
 .follow-sugg-pro .s-f-y {
@@ -203,7 +203,7 @@ nav ul li img {
 .follow-sugg-pro .s-f-y h4 {
   display: inline-block;
   font-weight: 600;
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
 .follow-sugg-pro .s-f-y a {
@@ -245,9 +245,9 @@ nav ul li img {
 }
 
 .follow-sugg-pro .name .name-t-flo .fo-content p {
-  color: #8E8E8E;
+  color: #8e8e8e;
   font-size: 13px;
-  letter-spacing: .8px;
+  letter-spacing: 0.8px;
   margin-bottom: 10px;
 }
 
@@ -259,7 +259,7 @@ nav ul li img {
 
 .follow-sugg-pro .name .url a {
   text-decoration: none;
-  color: #0095F6;
+  color: #0095f6;
   display: inline-block;
   margin-bottom: 10px;
   font-size: 13px;
@@ -276,8 +276,8 @@ nav ul li img {
 .covid-notify {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #FFFFFF;
-  border: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
   border-radius: 2px;
   width: 615px;
   margin-left: 0;
@@ -320,8 +320,8 @@ nav ul li img {
 .post-card .card {
   padding-top: 14px;
   padding-bottom: 14px;
-  background-color: #FFFFFF;
-  border: 1px solid #DBDBDB;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
   border-radius: 2px;
   max-width: 615px;
 }
@@ -442,7 +442,7 @@ nav ul li img {
 }
 
 .post-card .card .comment-input {
-  border-top: 1px solid #DBDBDB;
+  border-top: 1px solid #dbdbdb;
   padding-top: 20px;
   padding-bottom: 6px;
   display: -webkit-box;
@@ -467,7 +467,7 @@ nav ul li img {
 .post-card .card .comment-input a {
   margin-right: 15px;
   text-decoration: none;
-  color: #0095F6;
+  color: #0095f6;
 }
 
 .about-profile {
@@ -515,7 +515,7 @@ nav ul li img {
 
 .about-profile .about-others .top .middle-links a {
   margin-right: 4px;
-  border: 1px solid #DBDBDB;
+  border: 1px solid #dbdbdb;
   border-radius: 3px;
   text-decoration: none;
   display: inline-block;
@@ -533,6 +533,7 @@ nav ul li img {
 }
 
 .about-profile .about-others .top .dotted-menu #dots {
+  color: #545454;
   text-decoration: none;
   border: none;
   font-size: 36px;
@@ -586,7 +587,7 @@ nav ul li img {
 }
 
 .pro-gallery-img-container {
-  border-top: 1px solid #DBDBDB;
+  border-top: 1px solid #dbdbdb;
   max-width: 970px;
   margin: auto;
   margin-top: 45px;
@@ -619,7 +620,7 @@ nav ul li img {
 }
 
 .pro-gallery-img-container .p-t a:last-child {
-  color: #8E8E8E;
+  color: #8e8e8e;
 }
 
 .pro-gallery-img-container .pro-gallery-img {
@@ -673,17 +674,18 @@ nav ul li img {
 }
 
 .pro-gallery-img-container .pro-gallery-img .img:hover {
-  opacity: .7;
+  opacity: 0.7;
 }
 
-.pro-gallery-img-container .pro-gallery-img .img:hover .left, .pro-gallery-img-container .pro-gallery-img .img:hover .right {
+.pro-gallery-img-container .pro-gallery-img .img:hover .left,
+.pro-gallery-img-container .pro-gallery-img .img:hover .right {
   display: initial;
 }
 
 .pro-gallery-img-container .pro-gallery-img .i2 {
   width: 100%;
   height: 30vmin;
-  background-image: url("https://instagram.fdac22-1.fna.fbcdn.net/v/t51.2885-15/e35/99143192_955596524876179_244529888348306404_n.jpg?_nc_ht=instagram.fdac22-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=GkBUeN_F5GsAX9Hzncq&oh=f6fdadac4f9ad848e984470d67e4fecb&oe=5EF5BBAA");
+  background-image: url("https://loremflickr.com/322/322/boy,girl/all");
   background-size: cover;
   background-position: center;
 }
@@ -815,13 +817,13 @@ footer .left-f a {
   text-decoration: none;
   color: #36618a;
   font-size: 12px;
-  margin-right: .4%;
+  margin-right: 0.4%;
 }
 
 footer .right-f {
   margin-right: 15px;
   font-size: 12px;
-  color: #8E8E8E;
+  color: #8e8e8e;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -836,7 +838,7 @@ footer .right-f {
 .discover-people-container #disc-people {
   margin-left: 15px;
   font-size: 14px;
-  color: #8E8E8E;
+  color: #8e8e8e;
   font-weight: 600;
   margin-top: 100px;
   margin-bottom: 35px;
@@ -852,7 +854,7 @@ footer .right-f {
   background-color: white;
   text-align: center;
   margin-left: 25px;
-  border: 1px solid #DBDBDB;
+  border: 1px solid #dbdbdb;
   padding: 25px 52px;
   border-radius: 3px;
 }
@@ -873,7 +875,7 @@ footer .right-f {
 }
 
 .discover-people-container .discover-people .card .deatils p {
-  color: #8E8E8E;
+  color: #8e8e8e;
   font-size: 14px;
 }
 
@@ -881,7 +883,7 @@ footer .right-f {
   text-decoration: none;
   display: inline-block;
   padding: 5px 8px;
-  background-color: #0095F6;
+  background-color: #0095f6;
   border-radius: 3px;
   color: white;
   font-weight: 600;
@@ -895,11 +897,12 @@ footer .right-f {
 .disc-gallery-img-container p {
   margin-left: 15px;
   font-size: 14px;
-  color: #8E8E8E;
+  color: #8e8e8e;
   font-weight: 600;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1, .disc-gallery-img-container .disc-gallery-img .layout-type-2 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 {
   margin-top: 15px;
   display: -ms-grid;
   display: grid;
@@ -908,18 +911,21 @@ footer .right-f {
       grid-template-columns: repeat(3, 1fr);
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper {
   background-color: #2e2b2b;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img {
   width: 100%;
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .left {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .left {
   display: none;
   position: absolute;
   top: 48%;
@@ -927,12 +933,14 @@ footer .right-f {
   color: white;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left i, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .left i {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .left i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .left i {
   color: white;
   font-size: 24px;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .right {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .right {
   display: none;
   position: absolute;
   top: 48%;
@@ -940,28 +948,36 @@ footer .right-f {
   color: white;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right i, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .right i {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img .right i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img .right i {
   color: white;
   font-size: 24px;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover {
-  opacity: .7;
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover {
+  opacity: 0.7;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .left, .disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .right, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover .left, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover .right {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .img:hover .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .img:hover .right {
   display: initial;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .big-img .left, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .big-img .left {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .big-img .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .big-img .left {
   left: 38%;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .big-img .right, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .big-img .right {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .big-img .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .big-img .right {
   right: 38%;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i1, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i1 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i1 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/321/321/boy,girl/all");
@@ -969,7 +985,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i2, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i2 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i2,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i2 {
   width: 100%;
   height: 100%;
   background-image: url("https://instagram.fdac22-1.fna.fbcdn.net/v/t51.2885-15/e35/99143192_955596524876179_244529888348306404_n.jpg?_nc_ht=instagram.fdac22-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=GkBUeN_F5GsAX9Hzncq&oh=f6fdadac4f9ad848e984470d67e4fecb&oe=5EF5BBAA");
@@ -977,7 +994,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i3, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i3 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i3,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i3 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/321/321/boy,girl/all");
@@ -985,7 +1003,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i4, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i4 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i4,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i4 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/322/322/boy,girl/all");
@@ -993,7 +1012,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i5, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i5 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i5,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i5 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/333/333/boy,girl/all");
@@ -1001,7 +1021,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i6, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i6 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i6,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i6 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/334/334/boy,girl/all");
@@ -1009,7 +1030,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i7, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i7 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i7,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i7 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/335/335/boy,girl/all");
@@ -1017,7 +1039,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i8, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i8 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i8,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i8 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/336/336/boy,girl/all");
@@ -1025,7 +1048,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i9, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i9 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i9,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i9 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/337/337/boy,girl/all");
@@ -1033,7 +1057,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i10, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i10 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i10,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i10 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/338/338/boy,girl/all");
@@ -1041,7 +1066,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i11, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i11 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i11,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i11 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/339/339/boy,girl/all");
@@ -1049,7 +1075,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i12, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i12 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i12,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i12 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/340/340/boy,girl/all");
@@ -1057,7 +1084,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i13, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i13 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i13,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i13 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/341/341/boy,girl/all");
@@ -1065,7 +1093,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i14, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i14 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i14,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i14 {
   width: 100%;
   height: 100%;
   background-image: url("../img/steve.jpg");
@@ -1073,7 +1102,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i15, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i15 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .img-wrapper .i15,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .img-wrapper .i15 {
   width: 100%;
   height: 30vmin;
   background-image: url("https://loremflickr.com/343/343/boy,girl/all");
@@ -1081,7 +1111,8 @@ footer .right-f {
   background-position: center;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-1 .item2, .disc-gallery-img-container .disc-gallery-img .layout-type-2 .item2 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-1 .item2,
+.disc-gallery-img-container .disc-gallery-img .layout-type-2 .item2 {
   grid-row: span 2;
   grid-column: span 2;
 }
@@ -1090,7 +1121,8 @@ footer .right-f {
   margin-top: 25px;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3, .disc-gallery-img-container .disc-gallery-img .layout-type-4 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 {
   margin-top: 25px;
   display: -ms-grid;
   display: grid;
@@ -1099,11 +1131,13 @@ footer .right-f {
       grid-template-columns: repeat(3, 1fr);
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper {
   background-color: #2e2b2b;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img {
   width: 100%;
   height: 30vmin;
   background-size: cover;
@@ -1111,7 +1145,8 @@ footer .right-f {
   position: relative;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .left, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .left {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .left {
   display: none;
   position: absolute;
   top: 48%;
@@ -1119,12 +1154,14 @@ footer .right-f {
   color: white;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .left i, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .left i {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .left i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .left i {
   color: white;
   font-size: 24px;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .right, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .right {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .right {
   display: none;
   position: absolute;
   top: 48%;
@@ -1132,82 +1169,103 @@ footer .right-f {
   color: white;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .right i, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .right i {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img .right i,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img .right i {
   color: white;
   font-size: 24px;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover {
-  opacity: .7;
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover {
+  opacity: 0.7;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover .left, .disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover .right, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover .left, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover .right {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .img:hover .right,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover .left,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .img:hover .right {
   display: initial;
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i1, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i1 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i1 {
   height: 100%;
   background-image: url("https://loremflickr.com/321/321/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i2, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i2 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i2,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i2 {
   background-image: url("https://instagram.fdac22-1.fna.fbcdn.net/v/t51.2885-15/e35/99143192_955596524876179_244529888348306404_n.jpg?_nc_ht=instagram.fdac22-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=GkBUeN_F5GsAX9Hzncq&oh=f6fdadac4f9ad848e984470d67e4fecb&oe=5EF5BBAA");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i3, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i3 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i3,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i3 {
   background-image: url("https://loremflickr.com/321/321/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i4, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i4 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i4,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i4 {
   background-image: url("https://loremflickr.com/322/322/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i5, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i5 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i5,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i5 {
   background-image: url("https://loremflickr.com/333/333/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i6, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i6 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i6,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i6 {
   background-image: url("https://loremflickr.com/334/334/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i7, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i7 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i7,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i7 {
   background-image: url("https://loremflickr.com/335/335/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i8, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i8 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i8,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i8 {
   background-image: url("https://loremflickr.com/336/336/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i9, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i9 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i9,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i9 {
   background-image: url("https://loremflickr.com/337/337/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i10, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i10 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i10,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i10 {
   background-image: url("https://loremflickr.com/338/338/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i11, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i11 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i11,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i11 {
   background-image: url("https://loremflickr.com/339/339/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i12, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i12 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i12,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i12 {
   height: 100%;
   background-image: url("https://loremflickr.com/340/340/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i13, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i13 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i13,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i13 {
   background-image: url("https://loremflickr.com/341/341/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i14, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i14 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i14,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i14 {
   background-image: url("../img/steve.jpg");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i15, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i15 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .img-wrapper .i15,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .img-wrapper .i15 {
   background-image: url("https://loremflickr.com/343/343/boy,girl/all");
 }
 
-.disc-gallery-img-container .disc-gallery-img .layout-type-3 .item1, .disc-gallery-img-container .disc-gallery-img .layout-type-4 .item1 {
+.disc-gallery-img-container .disc-gallery-img .layout-type-3 .item1,
+.disc-gallery-img-container .disc-gallery-img .layout-type-4 .item1 {
   grid-row: span 2;
 }
 
@@ -1227,10 +1285,12 @@ footer .right-f {
   .pro-gallery-img .img-wrapper .img .right {
     right: 4%;
   }
-  .layout-type-1, .layout-type-2 {
+  .layout-type-1,
+  .layout-type-2 {
     grid-gap: 2px !important;
   }
-  .layout-type-3, .layout-type-4 {
+  .layout-type-3,
+  .layout-type-4 {
     grid-gap: 2px !important;
   }
   .profile-img {
@@ -1246,7 +1306,8 @@ footer .right-f {
         -ms-flex-order: 4 !important;
             order: 4 !important;
   }
-  .middle, .bottom {
+  .middle,
+  .bottom {
     position: relative;
     left: -100px;
     margin-top: 20px;
